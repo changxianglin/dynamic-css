@@ -8,8 +8,14 @@
   <body>
   <p>TEST REM</p>
   <script type="text/javascript">
+    // 获取视窗宽度
     let htmlSize  = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
     console.log(htmlSize)
+
+    // 获取视窗高度
+    let htmlDom = document.getElementsByTagName('html')[0]
+
+    htmlDom.style.fontSize = htmlSize / 10 + 'px'
   </script>
   </body>
 </html>
