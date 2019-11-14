@@ -21,12 +21,18 @@
   }
 }
 
-.banner {
-  display: block;
-  width: 100%;
-  height: px2rem(190px);
+.banner-content {
+  position: relative;
+  .banner {
+    display: block;
+    width: 100%;
+    height: px2rem(190px);
+  }
   .banner-title {
+    position: absolute;
     font-size: px2rem(16px);
+    left: px2rem(15px);
+    bottom: px2rem(15px);
     color: #fff;
   }
 }
